@@ -1,0 +1,24 @@
+/* Home.css */
+.home-container {
+    text-align: center;
+    margin: 20px;
+  }
+  
+  header h1, header h3 {
+    margin-bottom: 20px;
+  }
+  
+  .map-container {
+    margin: 0 auto;
+    width: 100%;
+    max-width: 600px;
+  }
+  
+  .navigation-links {
+    margin-top: 20px;
+  }
+  
+  .navigation-links .btn {
+    margin: 10px;
+  }
+  

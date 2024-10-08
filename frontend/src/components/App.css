@@ -1,0 +1,166 @@
+/* === Estilos Generales === */
+/* Estos estilos afectan la apariencia general de la página, como el fondo y la fuente */
+body {
+  background-color: #f4efe9; /* Fondo tono tierra claro */
+  font-family: 'Arial', sans-serif;
+  color: #4a4a4a;
+}
+
+/* === Títulos === */
+/* Estilos específicos para los encabezados (h2) */
+h2 {
+  color: #a67c52; /* Color tierra para los títulos */
+  font-weight: 600;
+}
+
+/* === Contenedor Principal === */
+/* Estilos para el contenedor que envuelve el formulario o el contenido principal */
+.container {
+  max-width: 400px;
+  margin: 50px auto;
+  padding: 2rem;
+  background-color: #fffaf0; /* Color caja tono tierra claro */
+  border-radius: 8px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  border-top: 4px solid #a67c52; /* Línea visible en la parte superior */
+}
+
+/* === Grupos de Formularios === */
+/* Estilos para cada bloque de campo del formulario */
+.form-group {
+  margin-bottom: 1.5rem;
+}
+
+/* === Etiquetas de Campos === */
+/* Estilos para las etiquetas de los campos del formulario */
+label {
+  display: block;
+  font-size: 0.9rem;
+  margin-bottom: 0.5rem;
+  color: #666;
+}
+
+/* === Campos de Entrada === */
+/* Estilos para los campos donde el usuario ingresa los datos (input) */
+input {
+  width: 40%; /* Ancho reducido del campo */
+  padding: 0.75rem;
+  font-size: 1rem;
+  border: 1px solid #ddd;
+  border-radius: 6px;
+  background-color: #f9fafb;
+  transition: border 0.3s ease;
+}
+
+/* === Hover en Campos de Entrada === */
+/* Efecto al pasar el cursor sobre los campos */
+input:hover, select:hover {
+  border-color: #a67c52; /* Color tierra al pasar el cursor */
+  background-color: #f1e2d3; /* Fondo tierra claro */
+}
+
+/* === Enfoque en Campos de Entrada === */
+/* Estilos cuando el campo está activo (el usuario hace clic) */
+input:focus {
+  border-color: #a67c52; /* Color tierra al enfocarse */
+  outline: none;
+}
+
+/* === Botones === */
+/* Estilos generales para los botones */
+button {
+  width: 100%;
+  padding: 0.75rem;
+  font-size: 1rem;
+  border: none;
+  border-radius: 6px;
+  background-color: #a67c52; /* Botón con color tierra */
+  color: white;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+/* === Hover en Botones === */
+/* Efecto cuando el cursor pasa sobre el botón */
+button:hover {
+  background-color: #8b5f2f; /* Color tierra más oscuro */
+}
+
+/* === Botón Deshabilitado === */
+/* Estilos para los botones cuando están deshabilitados */
+button:disabled {
+  background-color: #cccccc;
+}
+
+/* === Botón de Carga === */
+/* Estilos para el botón cuando está en estado de carga */
+.btn-loading {
+  background-color: #8B4513;  /* Color tierra más oscuro */
+  cursor: not-allowed; /* No se puede hacer clic */
+}
+
+/* === Mensajes de Error === */
+/* Estilos para los mensajes de error que se muestran debajo de los campos del formulario */
+.form-group .error {
+  color: #e74c3c;
+  font-size: 0.85rem;
+  margin-top: 0.25rem;
+}
+
+/* === Imagen de Usuario === */
+/* Estilos específicos para la imagen del perfil de usuario */
+.form-group img {
+  display: block;
+  margin: 10px auto;
+  border-radius: 50%; /* Imagen redonda para el perfil */
+  width: 80px;
+  height: 80px;
+  object-fit: cover; /* Ajustar la imagen */
+}
+
+/* === Vista Previa de Foto de la Casa === */
+/* Estilos para la vista previa de la foto de la casa */
+.form-group .img-preview {
+  width: 100%;
+  height: 150px; /* Tamaño para la foto de la casa */
+  object-fit: cover;
+  border-radius: 8px;
+  border: 1px solid #ddd;
+  margin-bottom: 15px;
+}
+
+/* === Estilos Responsivos === */
+/* Estilos para pantallas más pequeñas, como móviles */
+@media (max-width: 768px) {
+  .container {
+    padding: 1.5rem;
+  }
+
+  h2 {
+    font-size: 1.5rem;
+  }
+
+  input {
+    width: 100%; /* Aumentar el ancho del campo al 100% en pantallas pequeñas */
+  }
+}
+
+/* === Navbar === */
+/* Estilos para la barra de navegación */
+.navbar {
+  padding: 1rem;
+}
+
+.navbar-brand img {
+  height: 40px;
+}
+
+/* === Enlaces en la Navbar === */
+/* Estilos para los enlaces de la barra de navegación */
+.navbar-nav .nav-link {
+  color: #a67c52; /* Color tierra para los enlaces */
+}
+
+.navbar-nav .nav-link:hover {
+  color: #8b5f2f; /* Color más oscuro al pasar el cursor */
+}
